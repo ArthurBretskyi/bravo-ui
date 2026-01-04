@@ -211,18 +211,8 @@ onMounted(() => {
         .profile-link {
             font-weight: 600;
             color: #fff;
-            position: relative;
-            align-self: start;
-
-            &::before {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 2px;
-                background-color: #00CEC8;
-            }
+            border-left: 3px solid #00cec8;
+            padding-left: 8px;
         }
 
         .admin-link {

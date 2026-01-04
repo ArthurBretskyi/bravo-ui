@@ -1,0 +1,395 @@
+{
+  "home": "Головна",
+  "about": "Про нас",
+  "services": "Послуги",
+  "contacts": "Контакти",
+  "reviews": "Відгуки",
+  "auth": "Зареєструватись",
+  "login": "Увійти",
+  "logout": "Вийти",
+  "panel": "Панель адміністратора",
+  "userDashboard": "Профіль",
+  "pages": {
+    "register": {
+      "title": "Реєстрація",
+      "firstName": "Ім’я",
+      "lastName": "Прізвище",
+      "username": "Ім’я користувача",
+      "email": "Електронна пошта",
+      "password": "Пароль",
+      "confirmPassword": "Підтвердіть пароль",
+      "submit": "Зареєструватись",
+      "google": "Увійти через Google",
+      "or": "або",
+      "alreadyHaveAccount": "Вже зареєстровані?"
+    },
+    "login": {
+      "title": "Вхід",
+      "email": "Електронна пошта",
+      "password": "Пароль",
+      "submit": "Увійти",
+      "or": "АБО",
+      "google": "Увійти через Google",
+      "user_not_found": "Користувача не знайдено"
+    },
+    "home": {
+      "title": "Ваша краса — наша пристрасть",
+      "slogan": "Краса — це подорож. Давайте пройдемо її разом.",
+      "contacts": "Контакти",
+      "booking": "Записатись",
+      "bookingForStaff": "Записати",
+      "gallery": "Галерея"
+    },
+    "admin": {
+      "title": "Панель адміністратора",
+      "usersLink": "Користувачі",
+      "mastersLink": "Майстри",
+      "appointments": "Замовлення",
+      "finance": "Фінанси",
+
+      "manageMasters": "Керувати майстрами",
+      "addMaster": "Додати майстра",
+      "addService": "Додати Послугу",
+      "noAccess": "У вас немає доступу до цієї сторінки",
+      "manageServices": "Керувати Послугами",
+
+      "users": {
+        "title": "Користувачі",
+        "name": "Ім’я",
+        "phone": "Номер телефону",
+        "role": "Роль",
+        "actions": "Дії",
+        "makeAdmin": "Зробити Адміном",
+        "makeUser": "Зробити Майстром",
+        "makeMaster": "Зробити Майстром",
+        "delete": "Видалити"
+      },
+      "masters": {
+        "title": "Masters management",
+        "add": "Add master",
+        "edit": "Edit master",
+        "delete": "Delete master",
+        "noMasters": "No masters found.",
+        "description": "Manage salon masters: add new, edit existing, or remove."
+      }
+    },
+    "addMaster": {
+      "title": "Додати майстра",
+      "editTitle": "Редагувати майстраі",
+      "firstName": "Ім’я",
+      "lastName": "Прізвище",
+      "specialization": "Спеціалізація",
+      "phone": "Номер телефону",
+      "photo": "Фото",
+      "submit": "Додати",
+      "submitting": "Додаємо...",
+      "photoRequired": "Будь ласка, завантажте фото",
+      "update": "Редагувати",
+      "updating": "Редагування...",
+      "selectServices": "Оберіть послуги",
+      "selectUser": "Обрати Користувача"
+    },
+    "masters": {
+      "title": "Наші майстри",
+      "description": "Познайомтесь з нашою талановитою командою бьюті-фахівців",
+      "noMasters": "Наразі немає доступних майстрів.",
+      "backToAdmin": "Повернутися до панелі адміністратора"
+    },
+    "services": {
+      "adminTitle": "Керування послугами",
+      "userTitle": "Наші послуги",
+      "description": "Опис",
+      "noServices": "Немає послуг"
+    },
+    "addService": {
+      "titleAdd": "Додати нову послугу",
+      "titleEdit": "Редагувати послугу"
+    },
+    "thankYou": {
+      "thankYouMessage": "З деталями можете ознайомитись у вашому кабінеті користувача.",
+      "rebookSuccessTitle": "Ваше бронювання було успішно перенесено!",
+      "newBookingSuccessTitle": "Бронювання успішно створено!",
+      "goHome": "На головну",
+      "goCabinet": "Кабінет користувача"
+    },
+    "userDashboard": {
+      "title": "Особистий кабінет",
+      "notLoggedIn": "Ви не ввійшли в систему. Будь ласка, авторизуйтесь, щоб отримати доступ до кабінету.",
+      "profile": {
+        "title": "Профіль",
+        "firstName": "Ім’я",
+        "lastName": "Прізвище",
+        "email": "Електронна пошта",
+        "phone": "Телефон",
+        "edit": "Редагувати профіль",
+        "save": "Зберегти профіль"
+      },
+      "bookings": {
+        "title": "Мої бронювання",
+        "loading": "Завантаження бронювань...",
+        "empty": "У вас ще немає бронювань.",
+        "datetime": "Дата та час",
+        "service": "Послуга",
+        "details": "Деталі",
+        "master": "Майстер",
+        "status": "Статус",
+        "price": "Ціна",
+        "duration": "Тривалість",
+        "actions": "Дії",
+        "edit": "Перенести",
+        "cancel": "Скасувати",
+        "requiresConfirmationNote": "Потребує Уточнення"
+      },
+      "deleteAccount": {
+        "deleteTitle": "Видалити акаунт",
+        "description": "Ця дія є незворотною. Усі ваші дані буде видалено.",
+        "confirmButton": "Видалити мій акаунт",
+        "cancelButton": "Скасувати",
+        "confirmPassword": "Для видалення акаунту, введіть Ваш пароль.",
+        "passwordPlaceholder": "Введіть свій пароль",
+        "googleInfo": "Вас попросять підтвердити дію у вікні Google.",
+        "success": "Ваш акаунт успішно видалено.",
+        "recentLogin": "З міркувань безпеки повторно введіть пароль або пройдіть повторну автентифікацію.",
+        "error": "Не вдалося видалити акаунт. Спробуйте ще раз."
+      }
+    },
+    "MasterDashboard": {
+      "greeting": "Привіт, {name}!",
+      "loading": "Завантаження...",
+      "MasterDateStep": {
+        "selectDate": "Оберіть дату",
+        "prev": "Назад",
+        "next": "Вперед",
+        "noAppointments": "Записів на цей день немає"
+      },
+      "MasterAppointmentCard": {
+        "status": "Статус",
+        "markCompleted": "Позначити як виконано",
+        "cancel": "Скасувати"
+      }
+    },
+    "gallery": {
+      "title": "Галерея",
+      "noImages": "Немає зображень"
+    },
+    "contacts": {
+      "title": "Наші контакти",
+      "address": "Адреса",
+      "phones": "Телефони",
+      "mapTitle": "На мапі",
+      "workSchedule": "Графік роботи"
+    },
+    "appointmentsForAdmin": {
+      "title": "Оберіть Майстра"
+    },
+    "AdminMasterDashboard": {
+      "title": "Календар майстра {name}"
+    },
+    "serviceDetails": {
+      "mainTitle": "Фарбування волосся без витратних матеріалів",
+      "serviceName": "Послуга",
+      "duration": "Тривалість",
+      "contactAdminNote": "Коректна вартість послуги потребує уточнення у адміністратора або майстра"
+    },
+    "financeForAdmin": {
+      "title": "Оберіть Майстра"
+    },
+    "AdminMasterFinance": {
+      "title": "Календар майстра {name}",
+      "salonIncome": "Дохід Салону",
+      "salonNetIncome": "Чистий дохід салону",
+      "masterSalary": "ЗП Майстра",
+      "dailyIncome": "Дохід за День",
+      "weeklyIncome": "Дохід за тиждень",
+      "monthlyIncome": "Дохід за місяць",
+      "backToMasters": "Назад до Майстрів"
+    },
+    "Reviews": {
+      "title": "Відгуки",
+      "Form": {
+        "selectRating": "Виберіть Рейтинг",
+        "text": "текст Вашого відгуку",
+        "submit": "Опублікувати"
+      },
+      "List": {
+        "noReviews": "Немає Відгуків"
+      }
+    }
+  },
+  "components": {
+    "masterCard": {
+      "specialization": "Спеціалізація",
+      "phone": "Телефон",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "select": "Обрати майстра",
+      "choose": "Обрати"
+    },
+    "serviceCard": {
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "select": "Обрати",
+      "details": "Деталі"
+    },
+    "booking": {
+      "selectDate": "Оберіть дату",
+      "selectTime": "Оберіть час",
+      "selected": "Обраний час",
+      "chooseService": "Обрати послугу",
+      "confirmTitle": "Підтвердження бронювання",
+      "service": "Послуга",
+      "master": "Майстер",
+      "dateTime": "Дата та час",
+      "price": "Ціна",
+      "duration": "Тривалість",
+      "minutes": "хв",
+      "selectMasterTitle": "Оберіть майстра",
+      "noMastersForService": "Для цієї послуги наразі немає доступних майстрів",
+      "available": "Доступні",
+      "free": "Вільно",
+      "booked": "Немає доступних слотів на цей час",
+      "noSlots": "Немає вільних місць на цю дату",
+      "splitTime": "Розбити Час",
+      "phoneStep": {
+        "title": "Контактний номер телефону",
+        "description": "Для продовження оформлення бронювання, будь ласка, вкажіть ваш контактний номер телефону. Майстер зможе зв’язатися з вами для уточнення деталей.",
+        "label": "Ваш номер телефону",
+        "placeholder": "+380XXXXXXXXX",
+        "invalid": "Введіть, будь ласка, коректний номер телефону"
+      },
+      "clientData": {
+        "title": "Данні Клієнта",
+        "Form": {
+          "firstName": "Ім’я",
+          "lastName": "Прізвище",
+          "phone": "Номер телефону",
+          "email": "Email"
+        }
+      },
+      "confirmStep": {
+        "requiresConfirmationMessage": "Вартість та тривалість послуги потребує уточнення у адміністратора або майстра."
+      }
+    },
+    "calendar": {
+      "prev": "Назад",
+      "next": "Далі",
+      "today": "Сьогодні",
+      "month": "Місяць",
+      "day": "День",
+      "backToMonth": "До місяця",
+      "noSlots": "Немає доступних слотів на цю дату"
+    },
+    "MasterAppoinment": {
+      "greeting": "Вітаю, {name}!",
+      "loading": "Завантаження...",
+      "client": "Клієнт",
+      "phone": "Телефон",
+      "time": "Час",
+      "status": "Статус",
+      "price": "Ціна",
+      "salary": "З.П.",
+      "markCompleted": "Позначити як виконано",
+      "cancel": "Скасувати",
+      "additionalCost": "Додаткова вартість",
+      "comment": "Коментар",
+      "addComment": "Додати коментар",
+      "commentSaved": "Збережений коментар",
+      "confirmService": "До сервісу",
+      "noServiceLinked": "Немає сервісу",
+      "rebook": "Перенести",
+      "addAdditionalCost": "Додати",
+      "extraMasterBonus": "Бонус Майстру"
+    },
+    "serviceDetailsModal": {
+      "title": "Деталі сервісу",
+      "additionalСonsumables": "Додаткові витратні матеріали",
+      "commentFromMaster": "Коментар від майстра"
+    },
+    "reviewReply": {
+      "title": "Адміністрація салону"
+    }
+  },
+  "general": {
+    "uah": "грн",
+    "duration": "хв"
+  },
+  "specializations": {
+    "hairdresser": "Перукар/Колорист",
+    "makeup_artist": "Візажист",
+    "manicurist": "Манікюрник",
+    "masseur": "Масажист"
+  },
+  "form": {
+    "title": "Назва послуги",
+    "description": "Опис",
+    "price": "Ціна",
+    "duration": "Тривалість",
+    "addService": "Додати Послугу",
+    "updateService": "Редагувати послугу",
+    "submit": "Додати",
+    "submitting": "Додавання...",
+    "update": "Редагувати",
+    "updating": "Редагування...",
+    "minutes": "хв",
+    "category": "Категорія",
+    "photo": "Фото",
+    "requiresConfirmation": "Потребує уточнення ціни/тривалості"
+  },
+  "buttons": {
+    "add": "Додати",
+    "saveChanges": "Зберегти зміни",
+    "edit": "Редагувати",
+    "delete": "Видалити",
+    "bookNow": "Записатись",
+    "continue": "Продовжити",
+    "select": "Обрати",
+    "back": "Повернутись",
+    "next": "Далі",
+    "confirm": "Підтвердити",
+    "cancel": "Скасувати",
+    "save": "Зберегти",
+    "replyReview": "Відповісти на відгук"
+  },
+  "error": {
+    "messages": {
+      "smth_wrong": "Щось пішло не так. Спробуйте пізніше.",
+      "passwords_not_match": "Паролі не збігаються",
+      "authRequired": "Потрібна авторизація"
+    }
+  },
+  "toast": {
+    "toastService": "Послуга обрана",
+    "toastMaster": "Майсра обрано",
+    "success": "Успішне бронювання",
+    "phoneSaved": "Номер телефону збережено",
+    "profileSaved": "Профіль успішно збережено.",
+    "bookingCancelled": "Бронювання скасовано.",
+    "rebookHint": "Тепер ви можете створити нове бронювання з цими даними.",
+    "langChanged": "Мову змінено.",
+    "accountDeleted": "Ваш акаунт видалено.",
+    "statusCompleted": "Послугу позначено як завершену.",
+    "statusCancelled": "Послугу скасовано.",
+    "rebookSuccess": "Бронювання перенесено",
+    "additionalCostSaved": "Додаткова вартість збережена "
+  },
+  "statuses": {
+    "pending": "Очікує",
+    "confirmed": "Підтверджено",
+    "cancelled": "Скасовано",
+    "completed": "Завершено",
+    "requiresConfirmation": "Потребує уточнення ціни/тривалості"
+  },
+  "errors": {
+    "loadProfile": "Не вдалося завантажити профіль.",
+    "saveProfile": "Не вдалося зберегти профіль.",
+    "loadBookings": "Не вдалося завантажити бронювання.",
+    "cancelBooking": "Не вдалося скасувати бронювання.",
+    "deleteAccount": "Не вдалося видалити акаунт.",
+    "recentLogin": "Будь ласка, увійдіть знову для підтвердження цієї дії.",
+    "rebookInvalid": "Помилка повторного бронювання"
+  },
+  "confirm": {
+    "cancelBooking": "Ви впевнені, що хочете скасувати це бронювання?",
+    "deleteAccount": "Ви впевнені, що хочете остаточно видалити акаунт?"
+  }
+}

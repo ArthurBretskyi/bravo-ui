@@ -1,0 +1,16 @@
+{
+  "title": "Пірсинг",
+  "photoUrl": "https://res.cloudinary.com/dnrvrs2vj/image/upload/v1760003670/piercing_vnxnx9.jpg",
+  "requiresConfirmation": "true",
+  "duration": "60",
+  "categories": [
+    {
+      "options": [
+        {
+          "service": "Прокол вушка",
+          "price": 280
+        }
+      ]
+    }
+  ]
+}

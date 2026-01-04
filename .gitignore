@@ -1,25 +1,23 @@
-# ======================
-# 1️⃣  ІГНОРУЄМО ВСЕ
-# ======================
-*
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# ======================
-# 2️⃣  ДОЗВОЛЯЄМО ГОЛОВНІ ФАЙЛИ
-# ======================
-!.gitignore
-!README.md
+# Firebase admin / secrets
+serviceAccountKey.json
+*.pem
+*.key
 
-# ======================
-# 3️⃣  ДОЗВОЛЯЄМО ПАПКУ SRC
-!src/
-!src/**
+# Node
+node_modules/
+dist/
+dist-ssr/
 
-# ======================
-# 4️⃣  ІГНОРУЄМО ВСЕ ІНШЕ ВСЕРЕДИНІ SRC, КРІМ ПОТРІБНИХ
-src/*
+# Logs
+logs/
+*.log
 
-!src/components/
-!src/components/**
-!src/views/
-!src/views/**
-
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

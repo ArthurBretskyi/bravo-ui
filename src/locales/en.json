@@ -1,0 +1,393 @@
+{
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "contacts": "Contscts",
+  "reviews": "Reviews",
+  "auth": "Register",
+  "login": "Login",
+  "logout": "Logout",
+  "panel": "Admin Panel",
+  "userDashboard": "Profile",
+  "pages": {
+    "register": {
+      "title": "Register",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "google": "Sign in with Google",
+      "or": "or",
+      "alreadyHaveAccount": "Already have an account?"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Log In",
+      "or": "OR",
+      "google": "Sign in with Google",
+      "user_not_found": "User not found"
+    },
+    "home": {
+      "title": "Your beauty is our passion",
+      "slogan": "Beauty is a journey — let’s walk it together.",
+      "contacts": "Contacts",
+      "booking": "Book Now",
+      "bookingForStaff": "Add booking",
+      "gallery": "Gallery"
+    },
+    "admin": {
+      "title": "Admin Panel",
+      "usersLink": "Users",
+      "mastersLink": "Masters",
+      "appointments": "Appointments",
+      "finance": "Finance",
+
+      "manageMasters": "Manage Masters",
+      "addMaster": "Add Master",
+      "addService": "Add Service",
+      "noAccess": "You do not have access to this page",
+      "manageServices": "Manage Services",
+
+      "users": {
+        "title": "Users",
+        "name": "Name",
+        "phone": "Phone Number",
+        "role": "Role",
+        "actions": "Actions",
+        "makeAdmin": "Make Admin",
+        "makeUser": "Make User",
+        "makeMaster": "Make Master",
+        "delete": "Delete"
+      },
+      "masters": {
+        "title": "Masters management",
+        "add": "Add master",
+        "edit": "Edit master",
+        "delete": "Delete master",
+        "noMasters": "No masters found.",
+        "description": "Manage salon masters: add new, edit existing, or remove."
+      }
+    },
+    "addMaster": {
+      "title": "Add New Master",
+      "editTitle": "Edit Master",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "specialization": "Specialization",
+      "phone": "Phone Number",
+      "photo": "Photo",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "photoRequired": "Please upload a photo",
+      "update": "Update",
+      "updating": "Updating...",
+      "selectServices": "Select services",
+      "selectUser": "Select User"
+    },
+    "masters": {
+      "title": "Our Masters",
+      "description": "Meet our talented team of beauty professionals",
+      "noMasters": "No masters available at the moment.",
+      "backToAdmin": "Back to Admin Panel"
+    },
+    "services": {
+      "adminTitle": "Manage Services",
+      "userTitle": "Our Services",
+      "description": "Description",
+      "noServices": "No Services"
+    },
+    "addService": {
+      "titleAdd": "Add New Service",
+      "titleEdit": "Edit Service"
+    },
+    "thankYou": {
+      "thankYouMessage": "You can view the details in your user account.",
+      "rebookSuccessTitle": "Your booking has been successfully rescheduled!",
+      "newBookingSuccessTitle": "Your booking has been successfully created!",
+      "goHome": "Go to Home",
+      "goCabinet": "User Account"
+    },
+    "userDashboard": {
+      "title": "User Dashboard",
+      "notLoggedIn": "You are not logged in. Please sign in to access your dashboard.",
+      "profile": {
+        "title": "Profile",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "edit": "Edit Profile",
+        "save": "Save Profile"
+      },
+      "bookings": {
+        "title": "My Bookings",
+        "loading": "Loading your bookings...",
+        "empty": "No bookings yet.",
+        "datetime": "Date & Time",
+        "service": "Service",
+        "details": "Details",
+        "master": "Master",
+        "price": "Price",
+        "duration": "Duration",
+        "status": "Status",
+        "actions": "Actions",
+        "edit": "Reschedule",
+        "cancel": "Cancel",
+        "requiresConfirmationNote": "Requires Confirmation"
+      },
+      "deleteAccount": {
+        "deleteTitle": "Delete account",
+        "description": "This action is permanent. All your data will be deleted.",
+        "confirmButton": "Delete my account",
+        "cancelButton": "Cancel",
+        "confirmPassword": "To delete account, enter your password.",
+        "passwordPlaceholder": "Enter your password",
+        "googleInfo": "You will be asked to confirm via Google popup.",
+        "success": "Your account has been deleted successfully.",
+        "recentLogin": "For security reasons, please re-enter your password or re-authenticate.",
+        "error": "Failed to delete account. Please try again."
+      }
+    },
+    "MasterDashboard": {
+      "greeting": "Hello, {name}!",
+      "loading": "Loading...",
+      "MasterDateStep": {
+        "selectDate": "Select a date",
+        "prev": "Previous",
+        "next": "Next",
+        "noAppointments": "No appointments for this day"
+      },
+      "MasterAppointmentCard": {
+        "status": "Status",
+        "markCompleted": "Mark as Completed",
+        "cancel": "Cancel"
+      }
+    },
+    "gallery": {
+      "title": "Our Gallery",
+      "noImages": "No Images"
+    },
+    "contacts": {
+      "title": "Our Contacts",
+      "address": "Address",
+      "phones": "Phones",
+      "mapTitle": "On the Map",
+      "workSchedule": "Work Schedule"
+    },
+    "appointmentsForAdmin": {
+      "title": "Choose Master"
+    },
+    "AdminMasterDashboard": {
+      "title": "Master's Calendar {name}"
+    },
+    "serviceDetails": {
+      "mainTitle": "Hair coloring without consumables",
+      "serviceName": "Service",
+      "duration": "Duration",
+      "contactAdminNote": "The correct cost of the service needs to be clarified with the administrator or the master."
+    },
+    "financeForAdmin": {
+      "title": "Choose Master"
+    },
+    "AdminMasterFinance": {
+      "title": "Master's Calendar {name}",
+      "salonIncome": "Salon Income",
+      "salonNetIncome": "Salon Net Income",
+      "masterSalary": "Master Salary",
+      "dailyIncome": "Daily Income",
+      "weeklyIncome": "Weekly Income",
+      "monthlyIncome": "Monthly Income",
+      "backToMasters": "Back To Masters"
+    },
+    "Reviews": {
+      "title": "Reviews",
+      "Form": {
+        "selectRating": "Select Rating",
+        "text": "Text of Your Review",
+        "submit": "Publish"
+      },
+      "List": {
+        "noReviews": "No Reviews"
+      }
+    }
+  },
+  "components": {
+    "masterCard": {
+      "specialization": "Specialization",
+      "phone": "Phone",
+      "edit": "Edit",
+      "delete": "Delete",
+      "select": "Choose a master",
+      "choose": "Choose a master"
+    },
+    "serviceCard": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "select": "Select",
+      "details": "Details"
+    },
+    "booking": {
+      "selectDate": "Select date",
+      "selectTime": "Select time",
+      "selected": "Selected time",
+      "chooseService": "Choose Service",
+      "confirmTitle": "Booking Confirmation",
+      "service": "Service",
+      "master": "Master",
+      "dateTime": "Date & Time",
+      "price": "Price",
+      "duration": "Duration",
+      "minutes": "min",
+      "selectMasterTitle": "Select a master",
+      "noMastersForService": "No masters available for this service",
+      "available": "Available",
+      "free": "Free",
+      "booked": "No available slots for this time",
+      "noSlots": "No available slots for this date",
+      "splitTime": "Split Time",
+      "phoneStep": {
+        "title": "Contact phone number",
+        "description": "To proceed with the booking, please provide your contact phone number. The master will be able to reach you to clarify the details.",
+        "label": "Your phone number",
+        "placeholder": "+380XXXXXXXXX",
+        "invalid": "Please enter a valid phone number"
+      },
+      "clientData": {
+        "title": "Client Data",
+        "Form": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "phone": "Phone Number",
+          "email": "Email"
+        }
+      },
+      "confirmStep": {
+        "requiresConfirmationMessage": "The cost and duration of the service needs to be clarified with the administrator or the master."
+      }
+    },
+    "calendar": {
+      "prev": "Prev",
+      "next": "Next",
+      "today": "Today",
+      "month": "Month",
+      "day": "Day",
+      "backToMonth": "Back to month",
+      "noSlots": "No available slots for this date"
+    },
+    "MasterAppoinment": {
+      "greeting": "Hello, {name}!",
+      "loading": "Loading...",
+      "client": "Client",
+      "phone": "Phone",
+      "time": "Time",
+      "status": "Status",
+      "price": "Price",
+      "salary": "Salary",
+      "markCompleted": "Mark as Completed",
+      "cancel": "Cancel",
+      "additionalCost": "Additional Cost",
+      "comment": "Comment",
+      "addComment": "Add Comment",
+      "commentSaved": "Comment Saved",
+      "confirmService": "To Service",
+      "noServiceLinked": "No Service Linked",
+      "rebook": "Rebook",
+      "addAdditionalCost": "Add",
+      "extraMasterBonus": "Master Bonus"
+    },
+    "serviceDetailsModal": {
+      "title": "Service Details",
+      "additionalСonsumables": "Additional Consumables",
+      "commentFromMaster": "Comment From Master"
+    },
+    "reviewReply": {
+      "title": "Salon Administration"
+    }
+  },
+  "general": {
+    "uah": "UAH",
+    "duration": "min"
+  },
+  "specializations": {
+    "hairdresser": "Hairdresser/Colorist",
+    "makeup_artist": "Makeup Artist",
+    "manicurist": "Manicurist",
+    "masseur": "Masseur"
+  },
+  "form": {
+    "title": "Title",
+    "description": "Description",
+    "price": "Price",
+    "duration": "Duration (min)",
+    "category": "Category",
+    "addService": "Add Service",
+    "updateService": "Update Service",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "update": "Update",
+    "updating": "Updating...",
+    "requiresConfirmation": "Needs price/duration clarification"
+  },
+  "buttons": {
+    "add": "Add",
+    "saveChanges": "Save Changes",
+    "edit": "Edit",
+    "delete": "Delete",
+    "bookNow": "Book Now",
+    "continue": "Continue",
+    "select": "Select",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "replyReview": "Reply Review"
+  },
+  "error": {
+    "messages": {
+      "smth_wrong": "Something went wrong. Please try again later.",
+      "passwords_not_match": "Passwords do not match",
+      "authRequired": "Authorization is required"
+    }
+  },
+  "toast": {
+    "toastService": "Service Selected",
+    "toastMaster": "Master Selected",
+    "success": "Successful booking",
+    "phoneSaved": "Phone number has been saved",
+    "profileSaved": "Profile saved successfully.",
+    "bookingCancelled": "Booking cancelled.",
+    "rebookHint": "You can now create a new booking with these details.",
+    "langChanged": "Language changed.",
+    "accountDeleted": "Your account has been deleted.",
+    "statusCompleted": "Appointment marked as completed.",
+    "statusCancelled": "Appointment has been cancelled.",
+    "rebookSuccess": "Rebooked Successfully",
+    "additionalCostSaved": "Additional Cost Saved"
+  },
+  "statuses": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled",
+    "completed": "Completed",
+    "requiresConfirmation": "Needs price/duration clarification"
+  },
+  "errors": {
+    "loadProfile": "Failed to load profile.",
+    "saveProfile": "Failed to save profile.",
+    "loadBookings": "Failed to load bookings.",
+    "cancelBooking": "Failed to cancel booking.",
+    "deleteAccount": "Failed to delete account.",
+    "recentLogin": "Please re-login to confirm this action.",
+    "rebookInvalid": "Rebook Invalid"
+  },
+  "confirm": {
+    "cancelBooking": "Are you sure you want to cancel this booking?",
+    "deleteAccount": "Are you sure you want to permanently delete your account?"
+  }
+}
